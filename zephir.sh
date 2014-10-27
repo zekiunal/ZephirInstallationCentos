@@ -129,7 +129,6 @@ fi
 ####################################################################################
 
 git clone https://github.com/json-c/json-c.git
-sudo yum install -y libtool
 cd /json-c
 ./autogen.sh
 ./configure
